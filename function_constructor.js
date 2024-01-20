@@ -1,7 +1,9 @@
-function Person (name)
+function Person (name,age)
 {
     this.name = name;
+    this.age = age;
 }
 
-const person1 = new Person("dave");
-console.log("hello," + ' ' + person1.name);
+const person1 = new Person("dave",24);
+console.log("naem:" + ' ' + person1.name);
+console.log("age:" + ' ' + person1.age);
