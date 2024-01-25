@@ -2,7 +2,7 @@
 
 function Greet (name="ExcelR")
 {
-    console.log('hello, ${name}');
+    console.log(`hello, ${name}`);
 }
 Greet();
     
