@@ -1,8 +1,8 @@
-1.Write a program to demonstrate JavaScript loops, operators and conditions?
+// 1.Write a program to demonstrate JavaScript loops, operators and conditions?
 
 
 //  if-else statement
-------------------------------
+
  let n=5;
  let html=10;
  if(html>5)
@@ -17,17 +17,17 @@
 
 
 //  for loop example
-------------------------------
-var n;
-n=5;
-for (let i = 1; i <= n; i++) {
+
+var t;
+t=5;
+for (let i = 1; i <= t; i++) {
     console.log(" for loop iteration" + ' '  + i);
   }
 
 
 
 //   while loop example
-------------------------------
+
 let i = 1;
 
     while (i <= 5)
@@ -37,18 +37,18 @@ let i = 1;
     } 
 
 //  do-while loop example
-----------------------------
-let i = 1;
+
+let I = 1;
 do 
 {
-  console.log("do while loop iteraion" + ' ' + i );
-  i++;
+  console.log("do while loop iteraion" + ' ' + I );
+  I++;
 } 
-while (i <= 5);
+while (I <= 5);
 
 
-day identification :-
---------------------------
+// day identification :-
+
 const daysOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 
 const today = new Date();
